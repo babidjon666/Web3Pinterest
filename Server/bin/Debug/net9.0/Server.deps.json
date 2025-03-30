@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "Server/1.0.0": {
         "dependencies": {
+          "AWSSDK.S3": "3.7.415.28",
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3",
@@ -17,6 +18,25 @@
         },
         "runtime": {
           "Server.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.402.29": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.29"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.415.28": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.29"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.415.28"
+          }
         }
       },
       "Azure.Core/1.38.0": {
@@ -1100,6 +1120,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.402.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cYggBAJldqvu3pQtJGLf5Ly1Rwn2tzqTNL1mMVkHry8TkwzAIwSJE3TCCXkGjWAYAajP5TYCWaF1/QkOBN87Xw==",
+      "path": "awssdk.core/3.7.402.29",
+      "hashPath": "awssdk.core.3.7.402.29.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.415.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LZyHbC5lzgpWdDYkziKad+2hZU44q6HscmhqjcOW5Fom9Ngjf8Yol7YDaSyJfbNQR8iVCIgu0FdcbsOpMSnoUA==",
+      "path": "awssdk.s3/3.7.415.28",
+      "hashPath": "awssdk.s3.3.7.415.28.nupkg.sha512"
     },
     "Azure.Core/1.38.0": {
       "type": "package",

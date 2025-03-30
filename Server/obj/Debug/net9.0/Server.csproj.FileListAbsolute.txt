@@ -169,3 +169,5 @@
 /Users/markpolakov/Desktop/Web3Pinterest/Server/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/markpolakov/Desktop/Web3Pinterest/Server/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/markpolakov/Desktop/Web3Pinterest/Server/obj/Debug/net9.0/Server.sourcelink.json
+/Users/markpolakov/Desktop/Web3Pinterest/Server/bin/Debug/net9.0/AWSSDK.Core.dll
+/Users/markpolakov/Desktop/Web3Pinterest/Server/bin/Debug/net9.0/AWSSDK.S3.dll

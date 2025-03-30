@@ -32,7 +32,7 @@ namespace Server.Controllers
             try
             {
                 await signUpService.SignUp(request);
-                return CreatedAtAction(nameof(SignUp), new { email = request.Email }, request);
+                return Ok(new { message = "Успешная Регистрация", request }); 
             }
             catch (Exception ex)
             {

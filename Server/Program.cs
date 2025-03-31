@@ -18,6 +18,7 @@ builder.Services.AddScoped<SignUpService>();
 builder.Services.AddScoped<SignInService>();
 builder.Services.AddScoped<HashPasswordService>();
 builder.Services.AddScoped<YandexS3Service>();
+builder.Services.AddScoped<YandexCloudKeys>();
 
 // Настройка Swagger для API документации
 builder.Services.AddEndpointsApiExplorer();

@@ -26,7 +26,7 @@ namespace Server.Controllers
         {
             if (request == null)
             {
-                return BadRequest("Пользовательские данные не переданы.");
+                return BadRequest("Пол ьзовательские данные не переданы.");
             }
 
             try
